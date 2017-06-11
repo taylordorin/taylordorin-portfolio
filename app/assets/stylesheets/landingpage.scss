@@ -49,7 +49,7 @@ body {
 
 nav {
   font-family: $body;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   ul {
     margin: 1em 3em;
   }
@@ -87,8 +87,8 @@ div.right-section {
     color: rgba(255,255,255,1);
     position: relative;
     padding: 16px 7px;
-    border-top: 2px solid rgba(255,255,255,0);
-    border-bottom: 2px solid rgba(255,255,255,0);
+    border-top: 1px solid rgba(255,255,255,0);
+    border-bottom: 1px solid rgba(255,255,255,0);
     transition: padding .3s,border-color .3s;
   }
   a:focus, a:hover {
@@ -104,7 +104,7 @@ div.right-section {
     right: 0;
     max-height: 0;
     color: rgba(255,255,255,0);
-    border-left: 2px solid rgba(255,255,255,0);
+    border-left: 1px solid rgba(255,255,255,0);
     content: attr(data-text);
     transition: max-height .3s,border-color 0s;
   }
@@ -116,7 +116,7 @@ div.right-section {
     padding: 5px;
     max-height: 0;
     color: rgba(255,255,255,0);
-    border-right: 2px solid rgba(255,255,255,0);
+    border-right: 1px solid rgba(255,255,255,0);
     content: attr(data-text);
     transition: max-height .3s,border-color 0s;
   }
@@ -127,29 +127,65 @@ div.right-section {
   }
 }
 
-
-
-//contact button
-.btn-main {
-  display: inline-block;
+//  contact button
+.btn {
   cursor: pointer;
-}
-
-a.btn-main{
-  color: $white;
-  border: 1px solid $white;
-  color: $white;
-  font-family: $body;
-  font-size: 1.1em;
-  letter-spacing: 2px;
-  padding: 16px 30px;
+  font-size:16px;
+  font-weight: 400;
+  line-height: 45px;
+  margin: 0 auto 2em;
+  max-width: 160px;
+  position: relative;
+  text-decoration: none;
   text-transform: uppercase;
-  width: 190px;
-  margin: auto;
-  margin-top: 2.5em;
+  vertical-align: middle;
+  width: 100%;
+  @media(min-width: 400px) {
+    display: inline-block;
+    &:nth-of-type(even) {
+      margin-right: 0;
+    }
+  }
+  @media(min-width: 600px) {
+    &:nth-of-type(even) {
+      margin-right: 2.5em;
+    }
+    &:nth-of-type(5) {
+      margin-right: 0;
+    }
+  }
+  &:hover { text-decoration: none; }
 }
 
-.btn-main:hover {
-  background-color: $desat-olive;
-  border: 1px solid $white;
+//button one
+.btn-1 {
+  letter-spacing: 1px;
+  font-family: $body;
+  font-size: 1.2rem;
+  color: $white;
+  margin-top: 2em;
+  svg {
+    height: 45px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  rect {
+    fill: none;
+    stroke: $white;
+    stroke-width: 2;
+    stroke-dasharray: 422, 0;
+  }
+}
+
+.btn-1:hover {
+  letter-spacing: 1px;
+  color: $white;
+  rect {
+    stroke-width: 2;
+    stroke-dasharray: 15, 310;
+    stroke-dashoffset: 48;
+    transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+  }
 }

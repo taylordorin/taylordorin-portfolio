@@ -9,10 +9,12 @@ class HeaderButtonTile extends Component {
   render(){
     return(
       <div>
-        <div className="buttonrow">
-          <button><a className="btn-main" href='#'>LETS TALK</a>
-          </button>
-        </div>
+        <a href="#" className="btn btn-1">
+          <svg>
+            <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+          </svg>
+         LET'S TALK
+        </a>
       </div>
     )
   }
