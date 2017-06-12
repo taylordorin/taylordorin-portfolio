@@ -2,13 +2,12 @@
 @import "helper/fonts";
 
 body {
-  background-color: $beige;
+  background-color: $white;
 }
 
 // background header
 .background-image {
   background-image: image-url('landing-page-image.jpg');
-  background-color: #333;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -188,4 +187,36 @@ div.right-section {
     stroke-dashoffset: 48;
     transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
   }
+}
+
+//Headlines & copy
+h1 {
+  font-family: $headline;
+  font-size: 6em;
+  color: $white;
+}
+
+p {
+  font-family: $body;
+  color: $white;
+  font-size: 1.2em;
+  margin-right: 6em;
+}
+
+//About me section
+.about-me-div {
+  height: 500px;
+  background-color: $beige;
+}
+
+.self-image {
+  position: relative;
+  top: 50%;
+  transform: translateY(50%);
+  height: 13em;
+  border-radius: 50%;
+}
+
+.columns {
+  margin-top: 5em;
 }

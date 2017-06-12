@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import HeaderLinkTile from './HeaderLinkTile';
 import HeaderButtonTile from './HeaderButtonTile';
+import AboutMeTile from './AboutMeTile';
 
 class HeaderTile extends Component {
   constructor(props){
@@ -17,6 +18,7 @@ class HeaderTile extends Component {
             <HeaderButtonTile />
           </div>
         </div>
+        <AboutMeTile />
       </div>
     )
   }
