@@ -12,7 +12,7 @@ class HeaderLinkTile extends Component {
         <nav className="clearfix">
           <div className="right-section">
             <ul>
-              <li><a className="link" href="#" data-text="About Me">About Me</a></li>
+              <li><a className="link" href="#About-Me" data-text="About Me">About Me</a></li>
               <li><a className="link" href="#" data-text="Experience">Experience</a></li>
               <li><a className="link" href="#" data-text="Portfolio">Portfolio</a></li>
               <li><a className="link" href="#" data-text="Contact Me">Contact Me</a></li>

@@ -24,3 +24,5 @@ class HeaderTile extends Component {
   }
 }
 export default HeaderTile;
+
+            // <h1>Hi, I'm Taylor Dorin</h1>

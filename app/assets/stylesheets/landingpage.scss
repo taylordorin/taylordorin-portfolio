@@ -192,8 +192,9 @@ div.right-section {
 //Headlines & copy
 h1 {
   font-family: $headline;
-  font-size: 6em;
+  font-size: 5em;
   color: $white;
+  text-align: center;
 }
 
 p {
@@ -205,18 +206,18 @@ p {
 
 //About me section
 .about-me-div {
-  height: 500px;
   background-color: $beige;
+  padding: 3em 0 5em 0;
 }
 
 .self-image {
-  position: relative;
-  top: 50%;
-  transform: translateY(50%);
   height: 13em;
   border-radius: 50%;
 }
 
-.columns {
-  margin-top: 5em;
+.icons {
+  height: 1.8em;
+  padding-right: 1.6em;
 }
+
+// experience
