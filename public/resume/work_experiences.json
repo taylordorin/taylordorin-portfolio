@@ -3,9 +3,7 @@
     "id": 1,
     "company": "Launch Academy",
     "position": "Apprentice React.js Developer",
-    "description": "Completed 10-week immersive bootcamp to develop critical, applicable programming skills and become an active contributor of a software engineering team. Applied fundamental learnings in Agile methodologies, pair programming and collaborative development,
-    TDD, OOP, continuous integration and Git workflow. A focus on front-end and UX/UI design, applying Javascript, React.js, HTML, CSS and Sass, wire-framing,
-    and Ruby on Rails.",
+    "description": "Completed 10-week immersive bootcamp to develop critical, applicable programming skills and become an active contributor of a software engineering team. Applied fundamental learnings in Agile methodologies, pair programming and collaborative development, TDD, OOP, continuous integration and Git workflow. A focus on front-end and UX/UI design, applying Javascript, React.js, HTML, CSS and Sass, wire-framing, and Ruby on Rails.",
     "start_date": "March 2017",
     "end_date": "May 2017"
   },
@@ -24,7 +22,7 @@
     "description": "Executed warm and cold calls to maintain and develop new business. Met with hiring managers to understand staffing needs, and made recommendations regarding best available candidates.",
     "start_date": "May 2012",
     "end_date": "September 2012"
-  }
+  },
   {
     "id": 4,
     "company": "ABnote North America",
@@ -32,7 +30,7 @@
     "description": "Oversaw life-cycle of all orders, including quoting, order entry and data management utilizing Visual CRM. Led development of and maintained new order management system, designed to process all incoming orders and artwork of a multimillion dollar commercial and secure card company producing 1.4 billion cards per year.",
     "start_date": "October 2007",
     "end_date": "April 2012"
-  }
+  },
   {
     "id": 5,
     "company": "J.M. Perrone Co., Inc.",
@@ -40,7 +38,7 @@
     "description": "Managed the art department and worked closely with pre-press to optimize workflow and resolve quality control issues. Primary designer of creative material including posters, fliers, postcards and other print media utilizing Adobe Creative Suite. Conceived and executed annual fund and direct mail packages for national colleges and universities.",
     "start_date": "October 2007",
     "end_date": "August 2005"
-  }
+  },
   {
     "id": 6,
     "company": "Graphic Communications Group",
@@ -48,7 +46,7 @@
     "description": "Created the position of graphic designer for a print distribution company. Designed creative material including multi-page documents complete with index, brochures, fliers, postcards and other print media utilizing the Adobe Creative Suite and performed all on-site photography as necessary saving the customer from additional costs.",
     "start_date": "June 2003",
     "end_date": "May 2005"
-  }
+  },
   {
     "id": 7,
     "company": "Graphic Communications Group",
