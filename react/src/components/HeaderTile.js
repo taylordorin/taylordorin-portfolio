@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 import HeaderLinkTile from './HeaderLinkTile';
 import HeaderButtonTile from './HeaderButtonTile';
+import AboutMeTile from './AboutMeTile';
+import ResumeTile from './ResumeTile';
 
 class HeaderTile extends Component {
   constructor(props){
     super(props);
   }
 
-  render(){
+  render() {
     return(
       <div>
         <div className="background-image">
@@ -17,6 +19,8 @@ class HeaderTile extends Component {
             <HeaderButtonTile />
           </div>
         </div>
+        <AboutMeTile />
+        <ResumeTile />
       </div>
     )
   }

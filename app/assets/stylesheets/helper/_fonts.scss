@@ -1,3 +1,12 @@
+@font-face {
+font-family: 'Sophia';
+src: url('./fonts/Sophia.eot'); /* IE9 Compat Modes */
+src: url('./fonts/Sophia.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+url('./fonts/Sophia.woff') format('woff'), /* Modern Browsers */
+url('./fonts/Sophia.ttf') format('truetype'), /* Safari, Android, iOS */
+url('./fonts/Sophia.svg#svgFontName') format('svg'); /* Legacy iOS */}
+
 @import url(https://fonts.googleapis.com/css?family=Questrial);
 
 $body: 'Questrial', sans-serif;
+$headline: 'Sophia', cursive;
