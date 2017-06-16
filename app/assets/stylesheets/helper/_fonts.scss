@@ -6,22 +6,7 @@ url('./fonts/Sophia.woff') format('woff'), /* Modern Browsers */
 url('./fonts/Sophia.ttf') format('truetype'), /* Safari, Android, iOS */
 url('./fonts/Sophia.svg#svgFontName') format('svg'); /* Legacy iOS */}
 
-// @font-face {
-//     font-family: 'bromello';
-//     src:url('bromello.ttf.woff') format('woff'),
-//         url('bromello.ttf.svg#bromello') format('svg'),
-//         url('bromello.ttf.eot'),
-//         url('bromello.ttf.eot?#iefix') format('embedded-opentype');
-//     font-weight: normal;
-//     font-style: normal;
-// }
-
 @import url(https://fonts.googleapis.com/css?family=Questrial);
 
 $body: 'Questrial', sans-serif;
-$headline1: 'bromello', cursive;
 $headline: 'Sophia', cursive;
-
-$gutter: 30px;
-$border-width: 2px;
-$dot-diameter: 20px;

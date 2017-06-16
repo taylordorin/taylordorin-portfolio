@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
 
-class ExperienceTile extends Component {
+class EducationTile extends Component {
   constructor(props){
     super(props);
   }
@@ -10,14 +10,14 @@ class ExperienceTile extends Component {
     return(
       <div className="timeline">
         <div className="entry">
-          <div className="title">
-            <h3>{this.props.company}</h3>
-            <p>{this.props.start_date} - {this.props.end_date}</p>
+          <div className="title2">
+            <h3>Longwood University</h3>
+            <p>September 1994 - May 1999</p>
           </div>
           <div className="body">
             <div className="move-in">
-              <h3>{this.props.position}</h3>
-              <p>{this.props.description}</p>
+              <h3>Bachelor of Fine Arts</h3>
+              <p>Graphic Design, Photography, Printmaking</p>
             </div>
           </div>
         </div>
@@ -25,4 +25,4 @@ class ExperienceTile extends Component {
     )
   }
 }
-export default ExperienceTile;
+export default EducationTile;

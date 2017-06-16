@@ -1,5 +1,6 @@
 @import "helper/colors";
 @import "helper/fonts";
+@import "helper/assets";
 
 body {
   background-color: $white;
@@ -268,34 +269,87 @@ p {
       border: $border-width solid $beige;
       background-color:$white;
       border-radius:100%;
-      right: -1.7em;
-    }
-    h3 {
-      margin: 0;
-      font-size: 120%;
-      color: $dk-brown;
-    }
-    p {
-      margin: 0;
-      font-size: 100%;
-      color: $dk-brown;
+      right: -4.4%;
     }
   }
-  .body {
-    margin: 0 0 3em;
-    float: right;
-    width: 59%;
-    padding-left: $gutter;
-    p {
-      font-family: $body;
-      color: $dk-brown;
-      font-size: 1em;
-      margin-right: 35%;
+  .title2 {
+    margin-bottom: .5em;
+    float: left;
+    width: 39%;
+    padding-right: $gutter;
+    text-align: right;
+    position: relative;
+    &:before {
+      content: '';
+      position: absolute;
+      width: $dot-diameter;
+      height: $dot-diameter;
+      border: $border-width solid $beige;
+      background-color:$dk-brown;
+      border-radius:100%;
+      right: -4.4%;
     }
-    h3 {
-      margin: 0;
-      font-size: 120%;
-      color: $dk-brown;
-    }
+  }
+  h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: $dk-brown;
+    font-family: $body;
+    font-weight: bold;
+  }
+  p {
+    margin: 0;
+    font-size: 1rem;
+    color: $dk-brown;
   }
 }
+.body {
+  margin: 0 0 3em;
+  float: right;
+  width: 59%;
+  padding-left: $gutter;
+  p {
+    font-family: $body;
+    color: $dk-brown;
+    font-size: 1em;
+    width: 570px;
+  }
+  h3 {
+    margin: 0;
+    font-family: $body;
+    font-size: 1.2rem;
+    color: $dk-brown;
+    font-weight: bold;
+  }
+}
+
+
+//for move in
+// .move-in {
+//   animation: move 3s;
+//   -webkit-animation: move 3s;
+// }
+//
+// @keyframes move {
+//   from {
+//     margin-left: 100%;
+//     width: 300%;
+//   }
+//
+//   to {
+//     margin-left: 0%;
+//     width: 100%;
+//   }
+// }
+//
+// @-webkit-keyframes move {
+//   from {
+//     margin-left: 100%;
+//     width: 300%;
+//   }
+//
+//   to {
+//     margin-left: 0%;
+//     width: 100%;
+//   }
+// }

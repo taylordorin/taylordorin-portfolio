@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ExperienceTile from './ExperienceTile';
+import EducationTile from './EducationTile';
 
 class ResumeTile extends Component {
   constructor(props){
@@ -36,6 +37,7 @@ class ResumeTile extends Component {
         <div className="main">
           <img id="Experience" className="headlines" src={assetHelper["experience.png"]}></img>
           {work_experiences}
+          <EducationTile />
         </div>
       </div>
     )
