@@ -204,6 +204,11 @@ p {
   margin-right: 6em;
 }
 
+.headlines {
+  width: 30%;
+  padding-bottom: 3rem;
+}
+
 //About me section
 .about-me-div {
   background-color: $beige;
@@ -221,6 +226,76 @@ p {
 }
 
 // experience
-.experience-tile p {
-  color: $dk-brown;
+.experience {
+  padding: 3em 0 5em 0;
+}
+
+.timeline {
+  width:100%;
+  position: relative;
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 40%; //$gutter/2
+    bottom: 0px;
+    width: $border-width;
+    background: $desat-olive;
+  }
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+.entry {
+  clear: both;
+  text-align: left;
+  position: relative;
+  .title {
+    margin-bottom: .5em;
+    float: left;
+    width: 39%;
+    padding-right: $gutter;
+    text-align: right;
+    position: relative;
+    &:before {
+      content: '';
+      position: absolute;
+      width: $dot-diameter;
+      height: $dot-diameter;
+      border: $border-width solid $beige;
+      background-color:$white;
+      border-radius:100%;
+      right: -1.7em;
+    }
+    h3 {
+      margin: 0;
+      font-size: 120%;
+      color: $dk-brown;
+    }
+    p {
+      margin: 0;
+      font-size: 100%;
+      color: $dk-brown;
+    }
+  }
+  .body {
+    margin: 0 0 3em;
+    float: right;
+    width: 59%;
+    padding-left: $gutter;
+    p {
+      font-family: $body;
+      color: $dk-brown;
+      font-size: 1em;
+      margin-right: 35%;
+    }
+    h3 {
+      margin: 0;
+      font-size: 120%;
+      color: $dk-brown;
+    }
+  }
 }

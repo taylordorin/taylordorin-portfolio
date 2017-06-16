@@ -8,29 +8,19 @@ class ExperienceTile extends Component {
 
   render(){
     return(
-      <div className="experience-tile">
-        <p>Company: {this.props.company}</p>
-        <p>Position: {this.props.position}</p>
-        <p>Description: {this.props.description}</p>
-        <p>Time period: {this.props.start_date} - {this.props.end_date}</p>
+      <div className="timeline">
+        <div className="entry">
+          <div className="title">
+            <h3>{this.props.company}</h3>
+            <p>{this.props.start_date} - {this.props.end_date}</p>
+          </div>
+          <div className="body">
+            <h3>{this.props.position}</h3>
+            <p>{this.props.description}</p>
+          </div>
+        </div>
       </div>
     )
   }
 }
 export default ExperienceTile;
-
-
-// import React from 'react';
-//
-// const ExperienceTile = ({ id, company, position, description, start_date, end_date }) => {
-//     return(
-//       <div className="work-tile">
-//         <h1>Company: {company}</h1>
-//         <h3>Position: {position}</h3>
-//         <h3>Description: {description}</h3>
-//         <h3>Time period: {start_date} - {end_date}</h3>
-//       </div>
-//     )
-//   }
-//
-// export default ExperienceTile;

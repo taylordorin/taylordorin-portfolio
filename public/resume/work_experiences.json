@@ -54,5 +54,13 @@
     "description": "Digitally created and set type for a variety of print materials including postcards, multi-page catalogs and fliers utilizing Quark Xpress and the Adobe Creative Suite.",
     "start_date": "June 2003",
     "end_date": "May 2005"
+  },
+  {
+    "id": 8,
+    "company": "Longwood University",
+    "position": "Bachelor of Fine Arts",
+    "description": "Graphic Design, Photography, Printmaking",
+    "start_date": "September 1994",
+    "end_date": "May 1999"
   }
 ]
