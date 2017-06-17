@@ -319,7 +319,19 @@ p {
     font-family: $body;
     font-size: 1.2rem;
     color: $dk-brown;
+    padding-bottom: .5em;
     font-weight: bold;
+  }
+  ul {
+    list-style-type: none;
+    font-family: $body;
+    color: $dk-brown;
+    font-size: 1em;
+    width: 570px;
+    margin: 0;
+    li:before {
+      content: "– ";
+    }
   }
 }
 
