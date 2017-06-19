@@ -7,6 +7,8 @@ class ExperienceTile extends Component {
     super(props);
   }
 
+  
+
   render() {
     let bullet_points = this.props.description.map(
       function(bullet_point, index){
