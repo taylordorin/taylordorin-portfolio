@@ -24,7 +24,7 @@ body {
 
 .main {
   position: relative;
-  top: 56%;
+  top: 65%;
   text-align: center;
 }
 
@@ -50,6 +50,12 @@ body {
 nav {
   font-family: $body;
   font-size: 1.1rem;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.5);
   ul {
     margin: 1em 3em;
   }
@@ -213,22 +219,26 @@ p {
 //About me section
 .about-me-div {
   background-color: $beige;
-  padding: 3em 0 5em 0;
+  padding: 5em 0 6em 0;
 }
 
 .self-image {
-  height: 13em;
+  width: 60%;
   border-radius: 50%;
 }
 
 .icons {
   height: 1.8em;
-  padding-right: 1.6em;
+  margin-right: 1.6em;
+  &:hover {
+    transition: 0.3s;
+    -webkit-filter: drop-shadow(0px 0px 8px rgba(085, 68, 61, 0.8));
+  }
 }
 
 // experience
 .experience {
-  padding: 3em 0 5em 0;
+  padding: 5em 0 5em 0;
 }
 
 .timeline {
