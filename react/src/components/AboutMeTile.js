@@ -9,9 +9,9 @@ class AboutMeTile extends Component {
 
   render(){
     return(
-      <div className="about-me-div">
+      <div id="About-Me" className="about-me-div">
         <div className="main">
-          <img id="About-Me" className="headlines" src={assetHelper["about.png"]}></img>
+          <img className="headlines" src={assetHelper["about.png"]}></img>
         </div>
         <div className="row">
           <div className="small-4 columns text-right">
