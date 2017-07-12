@@ -1,3 +1,3 @@
 A portfolio and resume site.
 
-Currently fine me at taylordorin.herokuapp.com
+Currently find me at taylordorin.herokuapp.com

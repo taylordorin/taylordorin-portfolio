@@ -3,6 +3,7 @@ import HeaderLinkTile from './HeaderLinkTile';
 import HeaderButtonTile from './HeaderButtonTile';
 import AboutMeTile from './AboutMeTile';
 import ResumeTile from './ResumeTile';
+import WhatIDoTile from './WhatIDoTile';
 
 class HeaderTile extends Component {
   constructor(props){
@@ -21,6 +22,7 @@ class HeaderTile extends Component {
         </div>
         <AboutMeTile />
         <ResumeTile />
+        <WhatIDoTile />
       </div>
     )
   }
