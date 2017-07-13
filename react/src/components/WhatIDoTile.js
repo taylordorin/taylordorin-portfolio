@@ -34,7 +34,9 @@ class WhatIDoTile extends Component {
       <div id="WhatIDo" className="what-i-do-div">
         <div className="main">
           <img className="headlines" src={assetHelper["what-i-do.png"]}></img>
-          <p className="synopsys">Lorem ipsum dolor sit amet, pretium cupidatat neque at id mus sit, in fusce rhoncus. Morbi viverra nonummy orci massa neque, sodales in ipsum consequat, laoreet leo elementum eu suspendisse, senectus velit donec primis, vivamus pellentesque non donec ipsum nulla. </p>
+          <p className="synopsys">JavaScript • Ruby • HTML • CSS <br/>
+            React.js • Sass • Foundation • Rails • RSpec • Capybara • Git • GitHub • Adobe Creative Suite CC 2017 <br/>
+            SQL • PostgreSQL</p>
         </div>
         <div className="row medium-uncollapse large-collapse">
           {what_i_do}
