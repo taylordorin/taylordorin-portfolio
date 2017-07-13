@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "web design",
+    "logo": "webpage.png",
+    "description": "Lorem ipsum dolor sit amet, pretium cupidatat neque at id mus sit, in fusce rhoncus. Morbi viverra nonummy orci massa neque, sodales in ipsum."
+  },
+  {
+    "id": 2,
+    "title": "graphic design",
+    "logo": "design.png",
+    "description": "Lorem ipsum dolor sit amet, pretium cupidatat neque at id mus sit, in fusce rhoncus. Morbi viverra nonummy orci massa neque, sodales in ipsum."
+  },
+  {
+    "id": 3,
+    "title": "project management",
+    "logo": "thumb_tak.png",
+    "description": "Lorem ipsum dolor sit amet, pretium cupidatat neque at id mus sit, in fusce rhoncus. Morbi viverra nonummy orci massa neque, sodales in ipsum."
+  }
+]
