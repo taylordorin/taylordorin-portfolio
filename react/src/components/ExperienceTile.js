@@ -27,12 +27,10 @@ class ExperienceTile extends Component {
             <p>{this.props.start_date} - {this.props.end_date}</p>
           </div>
           <div className="body">
-            <div className="move-in">
-              <h3>{this.props.position}</h3>
-              <ul>
-                {bullet_points}
-              </ul>
-            </div>
+            <h3>{this.props.position}</h3>
+            <ul>
+              {bullet_points}
+            </ul>
           </div>
         </div>
       </div>
