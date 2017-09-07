@@ -307,6 +307,20 @@ p {
     font-family: $body;
     font-weight: bold;
   }
+  .brown-title {
+    margin: 0;
+    font-size: 1.2em;
+    color: $dk-brown;
+    font-family: $body;
+    font-weight: bold;
+  }
+  .red-title {
+    margin: 0;
+    font-size: 1.2em;
+    color: red;
+    font-family: $body;
+    font-weight: bold;
+  }
   p {
     margin: 0;
     font-size: 1rem;
