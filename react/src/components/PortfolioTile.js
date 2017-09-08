@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ScrollableAnchor from 'react-scrollable-anchor'
 
 class PortfolioTile extends Component {
   constructor(props){
@@ -7,10 +8,14 @@ class PortfolioTile extends Component {
 
   render() {
     return(
-      <div id="Portfolio" className="experience">
-        <div className="main">
-          <img className="headlines" src={assetHelper["portfolio.png"]}></img>
-        </div>
+      <div>
+        <ScrollableAnchor id={'Portfolio'}>
+          <div className="experience">
+            <div className="main">
+              <img className="headlines" src={assetHelper["portfolio.png"]}></img>
+            </div>
+          </div>
+        </ScrollableAnchor>
       </div>
     )
   }

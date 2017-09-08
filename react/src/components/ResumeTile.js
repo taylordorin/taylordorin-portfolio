@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ExperienceTile from './ExperienceTile';
 import EducationTile from './EducationTile';
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 class ResumeTile extends Component {
   constructor(props){
@@ -33,12 +34,16 @@ class ResumeTile extends Component {
       )
     })
     return(
-      <div id="Experience" className="experience">
-        <div className="main">
-          <img className="headlines" src={assetHelper["experience.png"]}></img>
-          {work_experiences}
-          <EducationTile />
-        </div>
+      <div>
+        <ScrollableAnchor id={'Experience'}>
+          <div className="experience">
+            <div className="main">
+              <img className="headlines" src={assetHelper["experience.png"]}></img>
+              </div>
+              {work_experiences}
+              <EducationTile />
+          </div>
+        </ScrollableAnchor>
       </div>
     )
   }
