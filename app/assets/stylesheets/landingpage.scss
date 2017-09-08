@@ -276,7 +276,6 @@ p {
       position: absolute;
       width: $dot-diameter;
       height: $dot-diameter;
-      // border: $border-width solid $beige;
       background-color:$desat-olive;
       border-radius:100%;
       right: -10px;
@@ -294,7 +293,6 @@ p {
       position: absolute;
       width: $dot-diameter;
       height: $dot-diameter;
-
       background-color:$dk-brown;
       border-radius:100%;
       right: -10px;
@@ -307,29 +305,66 @@ p {
     font-family: $body;
     font-weight: bold;
   }
-  .brown-title {
-    margin: 0;
-    font-size: 1.2em;
-    color: $dk-brown;
-    font-family: $body;
-    font-weight: bold;
-  }
-  .red-title {
-    margin: 0;
-    font-size: 1.2em;
-    color: red;
-    font-family: $body;
-    font-weight: bold;
-  }
   p {
     margin: 0;
     font-size: 1rem;
     color: $dk-brown;
   }
 }
+.entry-2 {
+  clear: both;
+  text-align: left;
+  position: relative;
+  .title-2 {
+    margin-bottom: .5em;
+    float: right;
+    width: 50%;
+    padding-right: $gutter;
+    text-align: left;
+    position: relative;
+    &:before {
+      content: '';
+      position: absolute;
+      width: $dot-diameter;
+      height: $dot-diameter;
+      background-color:$desat-olive;
+      border-radius:100%;
+      left: -10px;
+    }
+  }
+  .title2 {
+    margin-bottom: .5em;
+    float: right;
+    width: 50%;
+    padding-right: $gutter;
+    text-align: left;
+    position: relative;
+    &:before {
+      content: '';
+      position: absolute;
+      width: $dot-diameter;
+      height: $dot-diameter;
+      background-color:$dk-brown;
+      border-radius:100%;
+      left: -10px;
+    }
+  }
+  h3 {
+    font-size: 1.2em;
+    color: $dk-brown;
+    font-family: $body;
+    font-weight: bold;
+    margin: 0 0 0 30px;
+  }
+  p {
+    font-size: 1rem;
+    color: $dk-brown;
+      margin: 0 0 0 30px;
+  }
+}
 
 .body {
-  margin: 0 0 1em;
+  margin: 0 0 40px;
   float: right;
   width: 50%;
   padding-left: $gutter;
@@ -340,14 +375,45 @@ p {
     color: $dk-brown;
     font-weight: bold;
   }
-  ul {
+  p {
     list-style-type: none;
     font-family: $body;
     color: $dk-brown;
     font-size: 1rem;
-    width: 54%;
-    margin-left: 0.8em;
-    li:before {
+    width: 55%;
+    p:before {
+      content: "– ";
+      margin-left: -15px;
+    }
+  }
+}
+.company {
+  color: $desat-olive;
+}
+.body-2 {
+  float: right;
+  width: 50%;
+  margin: 0 0 40px;
+  // padding-left: $gutter;
+  h3 {
+    margin-right: 30px;
+    font-family: $body;
+    font-size: 1.2rem;
+    color: $dk-brown;
+    font-weight: bold;
+    text-align: right;
+  }
+  p {
+    margin-right: 30px;
+    list-style-type: none;
+    font-family: $body;
+    color: $dk-brown;
+    font-size: 1rem;
+    width: 55%;
+    float: right;
+    text-align: right;
+    // width: 54%;
+    p:before {
       content: "– ";
       margin-left: -15px;
     }

@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "company": "Leostream",
+    "position": "Apprentice React.js Developer",
+    "description": ["Designed and modernized the look and feel of the client Connection Broker Web Interface; including login page, interactive navigation menus, and complex forms." "Built and delivered completed HTML, CSS, and Javascript files that will be integrated into the client code base."],
+    "start_date": "June 2017",
+    "end_date": "Present"
+  },
+  {
+    "id": 2,
+    "company": "Launch Academy",
+    "position": "Contract Front-end Designer",
+    "description": ["Completed 10-week immersive bootcamp to develop critical, applicable programming skills and become an active contributor of a software engineering team.", "Applied fundamental learnings in Agile methodologies, pair programming and collaborative development, TDD, OOP, continuous integration and Git workflow.", "A focus on front-end and UX/UI design, applying Javascript, React.js, HTML, CSS and Sass, wire-framing, and Ruby on Rails."],
+    "start_date": "March 2017",
+    "end_date": "May 2017"
+  },
+  {
+    "id": 3,
+    "company": "Boathouse Group",
+    "position": "Project Manager",
+    "description": ["Entered all job orders and project schedules, and delegated resources for each project.", "Worked with senior management to develop new processes within the production department.", "Acted as project liaison between departments. Ensured all necessary assets, resources, and deadlines were identified and properly managed day-to-day to meet organizational expectations and project goals."],
+    "start_date": "February 2013",
+    "end_date": "January 2017"
+  },
+  {
+    "id": 4,
+    "company": "The Creative Group",
+    "position": "Account Manager",
+    "description": ["Executed warm and cold calls to maintain and develop new business.", "Met with hiring managers to understand staffing needs, and made recommendations regarding best available candidates."],
+    "start_date": "May 2012",
+    "end_date": "September 2012"
+  },
+  {
+    "id": 5,
+    "company": "ABnote North America",
+    "position": "Project Manager",
+    "description": ["Oversaw life-cycle of all orders, including quoting, order entry and data management utilizing Visual CRM.", "Led development of and maintained new order management system, designed to process all incoming orders and artwork of a multimillion dollar commercial and secure card company producing 1.4 billion cards per year."],
+    "start_date": "October 2007",
+    "end_date": "April 2012"
+  },
+  {
+    "id": 6,
+    "company": "J.M. Perrone Co., Inc.",
+    "position": "Graphic Designer",
+    "description": ["Managed the art department and worked closely with pre-press to optimize workflow and resolve quality control issues.", "Primary designer of creative material including posters, fliers, postcards and other print media utilizing Adobe Creative Suite. Conceived and executed annual fund and direct mail packages for national colleges and universities."],
+    "start_date": "October 2007",
+    "end_date": "August 2005"
+  },
+  {
+    "id": 7,
+    "company": "Graphic Communications Group",
+    "position": "Graphic Designer",
+    "description": ["Created the position of graphic designer for a print distribution company.", "Designed creative material including multi-page documents complete with index, brochures, fliers, postcards and other print media utilizing the Adobe Creative Suite and performed all on-site photography as necessary saving the customer from additional costs."],
+    "start_date": "June 2003",
+    "end_date": "May 2005"
+  },
+  {
+    "id": 8,
+    "company": "Color Quest Litho",
+    "position": "Graphic Production Artist",
+    "description": ["Digitally created and set type for a variety of print materials including postcards, multi-page catalogs and fliers utilizing Quark Xpress and the Adobe Creative Suite."],
+    "start_date": "June 2003",
+    "end_date": "May 2005"
+  }
+]
