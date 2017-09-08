@@ -419,71 +419,6 @@ p {
     }
   }
 }
-
-// What I Do Section
-.what-i-do-div {
-  background-color: $desat-olive;
-  padding: 5em 0 6em 0;
-}
-
-
-.synopsys {
-  margin: 0 15em;
-}
-
-.subhead {
-  h3 {
-  color: $white;
-  text-align: center;
-  font-size: 1.4rem;
-  font-weight: bold;
-  }
-  p {
-    text-align: center;
-    font-size: 1rem;
-    margin: 0 1.6em 0 1.6em;
-  }
-}
-
-.what_i_icon {
-  margin-top: 3em;
-  width: 25%;
-  padding-bottom: 1rem;
-  &:hover {
-
-  }
-}
-
-//for move in
-// .move-in {
-//   animation: move 3s;
-//   -webkit-animation: move 3s;
-// }
-//
-// @keyframes move {
-//   from {
-//     margin-left: 100%;
-//     width: 300%;
-//   }
-//
-//   to {
-//     margin-left: 0%;
-//     width: 100%;
-//   }
-// }
-//
-// @-webkit-keyframes move {
-//   from {
-//     margin-left: 100%;
-//     width: 300%;
-//   }
-//
-//   to {
-//     margin-left: 0%;
-//     width: 100%;
-//   }
-// }
-
 .icon-b {
   position: relative;
   display: inline-block;
@@ -532,3 +467,70 @@ p {
   margin-top: 10px;
   background: #fff;
 }
+
+// What I Do Section
+.what-i-do-div {
+  background-color: $desat-olive;
+  padding: 5em 0 6em 0;
+}
+
+
+.synopsys {
+  margin: 0 15em;
+}
+
+.subhead {
+  h3 {
+  color: $white;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+  }
+  p {
+    text-align: center;
+    font-size: 1rem;
+    margin: 0 1.6em 0 1.6em;
+  }
+}
+
+.what_i_icon {
+  margin: 3em 0 1em 0;
+  width: 25%;
+
+  &:hover {
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all ease-in-out 0.7s;
+  }
+}
+
+//for move in
+// .move-in {
+//   animation: move 3s;
+//   -webkit-animation: move 3s;
+// }
+//
+// @keyframes move {
+//   from {
+//     margin-left: 100%;
+//     width: 300%;
+
+//   }
+//
+//   to {
+//     margin-left: 0%;
+//     width: 100%;
+//   }
+// }
+//
+// @-webkit-keyframes move {
+//   from {
+//     margin-left: 100%;
+//     width: 300%;
+//   }
+//
+//   to {
+//     margin-left: 0%;
+//     width: 100%;
+//   }
+// }
