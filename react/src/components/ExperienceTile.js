@@ -24,6 +24,7 @@ class ExperienceTile extends Component {
 
     return(
       <div className="timeline">
+      <div className="icon-b"></div>
         <div className={entry}>
           <div className={title}>
             <p>{this.props.start_date} - {this.props.end_date}</p>
