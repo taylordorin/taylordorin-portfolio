@@ -8,31 +8,29 @@ class ExperienceTile extends Component {
   }
 
 
-
   render() {
-    let bullet_points = this.props.description.map(
-      (bullet_point, index) => {
-      return(
-        <BulletPointTile
-          key={index}
-          description={bullet_point}
-        />
-      )
-    })
+    let entry;
+    let title;
+    let body;
+    if (this.props.id % 2 === 0) {
+      entry = "entry-2";
+      title = "title-2";
+      body = "body-2";
+    } else {
+      entry = "entry";
+      title = "title";
+      body = "body";
+    }
+
     return(
       <div className="timeline">
-        <div className="entry">
-          <div className="title">
-            <h3>{this.props.company}</h3>
+        <div className={entry}>
+          <div className={title}>
             <p>{this.props.start_date} - {this.props.end_date}</p>
           </div>
-          <div className="body">
-            <div className="move-in">
-              <h3>{this.props.position}</h3>
-              <ul>
-                {bullet_points}
-              </ul>
-            </div>
+          <div className={body}>
+            <h3><span className="company">{this.props.company},</span> {this.props.position}</h3>
+            <p>{this.props.description}</p>
           </div>
         </div>
       </div>
@@ -40,5 +38,3 @@ class ExperienceTile extends Component {
   }
 }
 export default ExperienceTile;
-
-// <p>{this.props.description}</p>

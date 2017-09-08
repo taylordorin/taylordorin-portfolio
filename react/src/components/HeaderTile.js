@@ -4,6 +4,7 @@ import HeaderButtonTile from './HeaderButtonTile';
 import AboutMeTile from './AboutMeTile';
 import ResumeTile from './ResumeTile';
 import WhatIDoTile from './WhatIDoTile';
+import PortfolioTile from './PortfolioTile';
 
 class HeaderTile extends Component {
   constructor(props){
@@ -23,6 +24,7 @@ class HeaderTile extends Component {
         <AboutMeTile />
         <ResumeTile />
         <WhatIDoTile />
+        <PortfolioTile />
       </div>
     )
   }

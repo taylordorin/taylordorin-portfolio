@@ -1,43 +1,45 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
-import IconTile from './IconTile';
+import TalentTile from './TalentTile';
 
 class WhatIDoTile extends Component {
   constructor(props){
     super(props);
+    this.state = {
+      what_i_do_docs: []
+    };
+  }
+
+  componentDidMount() {
+  fetch("/resume/what_i_do.json")
+    .then((response) => response.json())
+    .then((responseData) => {
+      this.setState({what_i_do_docs: responseData});
+    });
   }
 
   render(){
+    let what_i_do = this.state.what_i_do_docs.map(what_i => {
+      return(
+        <TalentTile
+          key={what_i.id}
+          id={what_i.id}
+          title={what_i.title}
+          logo={what_i.logo}
+          description={what_i.description}
+        />
+      )
+    })
     return(
       <div id="WhatIDo" className="what-i-do-div">
         <div className="main">
           <img className="headlines" src={assetHelper["what-i-do.png"]}></img>
-          <p className="synopsys">Lorem ipsum dolor sit amet, pretium cupidatat neque at id mus sit, in fusce rhoncus. Morbi viverra nonummy orci massa neque, sodales in ipsum consequat, laoreet leo elementum eu suspendisse, senectus velit donec primis, vivamus pellentesque non donec ipsum nulla. </p>
+          <p className="synopsys">JavaScript • Ruby • HTML • CSS <br/>
+            React.js • Sass • Foundation • Rails • RSpec • Capybara • Git • GitHub • Adobe Creative Suite CC 2017 <br/>
+            SQL • PostgreSQL</p>
         </div>
         <div className="row medium-uncollapse large-collapse">
-          <div className="subhead small-4 columns">
-            <div className="main">
-              <img className="what_i_icon" src={assetHelper["webpage.png"]}></img>
-              <h3>web design</h3>
-              <p>Lorem ipsum dolor sit amet, pretium cupidatat neque at id mus sit, in fusce rhoncus. Morbi viverra nonummy orci massa neque, sodales in ipsum.</p>
-            </div>
-          </div>
-
-          <div className="subhead small-4 columns">
-            <div className="main">
-              <img className="what_i_icon" src={assetHelper["design.png"]}></img>
-              <h3>graphic design</h3>
-              <p>Lorem ipsum dolor sit amet, pretium cupidatat neque at id mus sit, in fusce rhoncus. Morbi viverra nonummy orci massa neque, sodales in ipsum.</p>
-            </div>
-          </div>
-
-          <div className="subhead small-4 columns">
-            <div className="main">
-              <img className="what_i_icon" src={assetHelper["thumb_tak.png"]}></img>
-              <h3>project management</h3>
-              <p>Lorem ipsum dolor sit amet, pretium cupidatat neque at id mus sit, in fusce rhoncus. Morbi viverra nonummy orci massa neque, sodales in ipsum.</p>
-            </div>
-          </div>
+          {what_i_do}
         </div>
       </div>
     )
