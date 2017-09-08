@@ -5,6 +5,7 @@ import AboutMeTile from './AboutMeTile';
 import ResumeTile from './ResumeTile';
 import WhatIDoTile from './WhatIDoTile';
 import PortfolioTile from './PortfolioTile';
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 class HeaderTile extends Component {
   constructor(props){
@@ -14,13 +15,15 @@ class HeaderTile extends Component {
   render() {
     return(
       <div>
-        <div className="background-image">
-          <HeaderLinkTile />
-          <div className="main">
-            <img className="taylor-greeting-img" src={assetHelper["taylor-greeting.png"]}></img>
-            <HeaderButtonTile />
+        <ScrollableAnchor id={'Home'}>
+          <div className="background-image">
+            <HeaderLinkTile />
+            <div className="main">
+              <img className="taylor-greeting-img" src={assetHelper["taylor-greeting.png"]}></img>
+              <HeaderButtonTile />
+            </div>
           </div>
-        </div>
+        </ScrollableAnchor>
         <AboutMeTile />
         <ResumeTile />
         <WhatIDoTile />
