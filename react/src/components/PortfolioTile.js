@@ -12,7 +12,7 @@ class PortfolioTile extends Component {
         <ScrollableAnchor id={'Portfolio'}>
           <div className="experience">
             <div className="main">
-              <img className="headlines" src={assetHelper["portfolio.png"]}></img>
+              <a href="http://www.coroflot.com/taylordorin"><img className="headlines" src={assetHelper["portfolio.png"]}></img></a>
             </div>
           </div>
         </ScrollableAnchor>
@@ -21,3 +21,6 @@ class PortfolioTile extends Component {
   }
 }
 export default PortfolioTile;
+
+
+// http://www.coroflot.com/taylordorin
