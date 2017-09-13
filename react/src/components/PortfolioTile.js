@@ -21,6 +21,3 @@ class PortfolioTile extends Component {
   }
 }
 export default PortfolioTile;
-
-
-// http://www.coroflot.com/taylordorin
