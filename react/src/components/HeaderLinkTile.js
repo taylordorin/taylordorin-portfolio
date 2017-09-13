@@ -26,7 +26,6 @@ class HeaderLinkTile extends Component {
                     <li><a href="#Experience" data-text="Experience">Experience</a></li>
                     <li><a href="#WhatIDo" data-text="What I Do">What I Do</a></li>
                     <li><a href="#Portfolio" data-text="Portfolio">Portfolio</a></li>
-                    <li><a href="#" data-text="Contact Me">Contact Me</a></li>
                   </ul>
                 </div>
               </div>
@@ -37,3 +36,5 @@ class HeaderLinkTile extends Component {
     }
   }
   export default HeaderLinkTile;
+
+                    // <li><a href="#" data-text="Contact Me">Contact Me</a></li>
