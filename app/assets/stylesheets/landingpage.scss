@@ -245,6 +245,9 @@ div.right-section {
     stroke-width: 2;
     stroke-dasharray: 422, 0;
   }
+  &:focus {
+    color: white;
+  }
 }
 
 .btn-1:hover {
