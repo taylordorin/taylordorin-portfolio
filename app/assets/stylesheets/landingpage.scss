@@ -91,8 +91,8 @@ body {
 div.right-section {
   float: right;
   ul {
-  display: table;
-  white-space: nowrap;
+    display: table;
+    white-space: nowrap;
   }
   li {
     display: table-cell;
@@ -155,6 +155,7 @@ div.right-section {
   left: 0;
   right: 0;
   background-color: rgba(0,0,0,0.5);
+  padding-right: 1em;
   .top-bar-title{
     @media only screen and (max-width: 40em) {
       width:100%;
