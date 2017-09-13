@@ -24,8 +24,11 @@ body {
 
 .main {
   position: relative;
-  top: 65%;
+  top: 50vh;
   text-align: center;
+}
+.top-bar, .top-bar ul {
+    background-color: transparent;
 }
 
 // Top bar nav inline to right
@@ -47,37 +50,38 @@ body {
   display: block;
 }
 
-nav {
-  font-family: $body;
-  font-size: 1.1rem;
-  position: fixed;
-  z-index: 100;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(0,0,0,0.5);
-  ul {
-    margin: 1em 3em;
-  }
-  li {
-    list-style: none;
-    display: inline;
-  }
-  a {
-    color: $white;
-    text-decoration: none;
-  }
-  :hover {
-    color: $white;
-    text-decoration: none;
-  }
-  .right-section {
-    float: right;
-  }
-}
+// nav {
+//   font-family: $body;
+//   font-size: 1.1rem;
+//   position: fixed;
+//   z-index: 100;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   background-color: rgba(0,0,0,0.5);
+//   ul {
+//     margin: 1em 3em;
+//   }
+//   li {
+//     list-style: none;
+//     display: inline;
+//   }
+//   a {
+//     color: $white;
+//     text-decoration: none;
+//   }
+//   :hover {
+//     color: $white;
+//     text-decoration: none;
+//   }
+//   .right-section {
+//     float: right;
+//   }
+// }
 
 // hover effect
 div.right-section {
+  float: right;
   ul {
   display: table;
   white-space: nowrap;
@@ -132,7 +136,52 @@ div.right-section {
     border-color: rgba(255,255,255,1);
   }
 }
+// colapsing menu
+.row {
+  width: 100%;
+}
+.top-bar {
+  background-color: rgba(0,0,0,0.5);
+  .top-bar-title{
+    @media only screen and (max-width: 40em) {
+      width:100%;
+    }
+  }
+  .menu-hamburger{
+    @media only screen and (max-width: 40em) {
+      padding: .4rem;
+    }
+    float:right;
+    .menu-text{
+      color:#fff;
+    }
+  }
 
+  .input-group {
+    margin-bottom:0;
+  }
+
+  .dropdown.menu .submenu {
+    border: none;
+  }
+
+  // Arrow styling
+  .dropdown.menu>li.is-dropdown-submenu-parent>a:after{
+    border-color: #fff transparent transparent;
+  }
+
+  .is-drilldown-submenu-parent>a::after, .is-dropdown-submenu .is-dropdown-submenu-parent.opens-right>a:after{
+    border-color: transparent transparent transparent #fff;
+  }
+
+  .js-drilldown-back>a:before, .is-dropdown-submenu .is-dropdown-submenu-parent.opens-left>a:after{
+    border-color: transparent #fff transparent transparent;
+  }
+}
+.columns {
+  margin: 0;
+  padding: 0;
+}
 //  contact button
 .btn {
   cursor: pointer;
