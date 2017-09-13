@@ -27,6 +27,7 @@ body {
 .main-intro_block {
   position: relative;
   text-align: center;
+  align-self: flex-end;
 }
 
 .main {
@@ -143,8 +144,8 @@ div.right-section {
     border-color: rgba(255,255,255,1);
   }
 }
-// colapsing menu
 
+// colapsing menu
 .top-bar {
   font-family: $body;
   font-size: 1.1rem;
