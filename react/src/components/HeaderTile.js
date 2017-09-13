@@ -18,7 +18,7 @@ class HeaderTile extends Component {
         <ScrollableAnchor id={'Home'}>
           <div className="background-image">
             <HeaderLinkTile />
-            <div className="main">
+            <div className="main-intro_block">
               <img className="taylor-greeting-img" src={assetHelper["taylor-greeting.png"]}></img>
               <HeaderButtonTile />
             </div>
