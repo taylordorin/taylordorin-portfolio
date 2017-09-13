@@ -58,34 +58,34 @@ body {
   display: block;
 }
 
-nav {
-  font-family: $body;
-  font-size: 1.1rem;
-  position: fixed;
-  z-index: 100;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(0,0,0,0.5);
-  ul {
-    margin: 1em 3em;
-  }
-  li {
-    list-style: none;
-    display: inline;
-  }
-  a {
-    color: $white;
-    text-decoration: none;
-  }
-  :hover {
-    color: $white;
-    text-decoration: none;
-  }
-  .right-section {
-    float: right;
-  }
-}
+// nav {
+//   font-family: $body;
+//   font-size: 1.1rem;
+//   position: fixed;
+//   z-index: 100;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   background-color: rgba(0,0,0,0.5);
+//   ul {
+//     margin: 1em 3em;
+//   }
+//   li {
+//     list-style: none;
+//     display: inline;
+//   }
+//   a {
+//     color: $white;
+//     text-decoration: none;
+//   }
+//   :hover {
+//     color: $white;
+//     text-decoration: none;
+//   }
+//   .right-section {
+//     float: right;
+//   }
+// }
 
 // hover effect
 div.right-section {
