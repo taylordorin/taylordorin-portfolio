@@ -15,9 +15,9 @@ class HeaderTile extends Component {
   render() {
     return(
       <div>
+      <HeaderLinkTile />
         <ScrollableAnchor id={'Home'}>
           <div className="background-image">
-            <HeaderLinkTile />
             <div className="main-intro_block">
               <img className="taylor-greeting-img" src={assetHelper["taylor-greeting.png"]}></img>
               <HeaderButtonTile />
