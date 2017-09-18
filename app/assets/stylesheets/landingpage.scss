@@ -48,15 +48,16 @@ body {
   clear: both;
   height: 0;
 }
-.clearfix {
-  display: inline-block;
-}
+// .clearfix {
+//   display: inline-block;
+// }
 * html .clearfix {
   height: 1%;
 }
 .clearfix {
   display: block;
   position: fixed;
+  z-index: 1000;
 }
 
 // hover effect
