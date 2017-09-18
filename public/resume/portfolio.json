@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "category": "design",
+    "imageUrl": "boathouse_holiday.jpg"
+  },
+  {
+    "id": 2,
+    "category": "design",
+    "imageUrl": "erik_allen_1.jpg"
+  },
+  {
+    "id": 3,
+    "category": "design",
+    "imageUrl": "erik_allen_2.jpg"
+  },
+  {
+    "id": 4,
+    "category": "design",
+    "imageUrl": "get_cocked.jpg"
+  },
+  {
+    "id": 5,
+    "category": "design",
+    "imageUrl": "lizzys_halloween.jpg"
+  },
+  {
+    "id": 6,
+    "category": "design",
+    "imageUrl": "speakeasy.jpg"
+  },
+  {
+    "id": 7,
+    "category": "design",
+    "imageUrl": "mass_educators_outside.jpg"
+  },
+  {
+    "id": 8,
+    "category": "design",
+    "imageUrl": "scleroderma_cover.jpg"
+  }
+]
