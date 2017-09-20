@@ -590,13 +590,6 @@ p {
 // .block {
 //   display: flex;
 // }
-
-$container_width: 1280px;
-$maxwidth: 100%;
-$body_bgcolor: white;
-$img_padding: 0px;
-$img_size: 200px;
-
 // * { box-sizing: border-box; }
 // body { margin: 0px; padding: 0px; }
 
@@ -605,7 +598,7 @@ $img_size: 200px;
   width: $container_width;
   max-width: $maxwidth;
   margin: 0 auto;
-  background-color: $body_bgcolor;
+  // background-color: $body_bgcolor;
   position: relative;
   text-align: center;
 }
@@ -614,9 +607,6 @@ $img_size: 200px;
   width: $img_size;
   height: $img_size;
   max-width: $maxwidth;
-  // margin-top: -6px;
-  // background-color: $body_bgcolor;
-  // padding: $img_padding;
   display: inline-block;
   position: relative;
   text-align: center;
@@ -624,14 +614,12 @@ $img_size: 200px;
 
   .image {
     max-width: $maxwidth;
-    // display: block;
     width: $img_size;
     height: $img_size;
     transition: opacity 0.3s ease-in-out;
     object-fit: cover;
-    // border-radius: 50%;
     &:hover {
-      opacity: 0.5;
+      // opacity: 0.5;
     }
   }
 }
@@ -639,12 +627,11 @@ $img_size: 200px;
 
 .figure {
 	// margin: 100px auto;
-	width: 200px;
-	height: 200px;
+	// width: 200px;
+	// height: 200px;
 	// overflow: hidden;
 	position: relative;
 }
-$spacing: 15px;
 .figcaption {
 	position: absolute;
   display: block;
@@ -656,10 +643,11 @@ $spacing: 15px;
 	background-color: rgba(0,0,0,0);
   transition: background-color .3s ease;
 	line-height: 1.33em;
+  font-family: $body;
 }
 
 .figure:hover .figcaption {
   bottom:0;
-  background-color: rgba(0,0,0,.5);
-  transition: background-color .5s linear;
+  background-color: rgba(0,0,0,.7);
+  transition: background-color .5s ease-in-out;
 }
