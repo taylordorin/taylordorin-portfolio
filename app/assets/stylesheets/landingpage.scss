@@ -174,7 +174,6 @@ body {
 .columns {
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 //  contact button
 .btn {
@@ -240,6 +239,42 @@ body {
     stroke-dashoffset: 48;
     transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
   }
+}
+
+.tooltiper {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltiptexter {
+  visibility: hidden;
+  /* width: 120px; */
+  background-color: $dk-brown;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 10px;
+  position: absolute;
+  z-index: 1;
+  top: 140%;
+  left: 50%;
+  margin-left: -50px;
+  font-family: "Questrial", sans-serif;
+}
+
+.tooltiptexter::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent $dk-brown transparent;
+}
+
+.tooltiper:hover .tooltiptexter {
+    visibility: visible;
 }
 
 //Headlines & copy
