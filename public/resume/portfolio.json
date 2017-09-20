@@ -2,91 +2,109 @@
   {
     "id": 1,
     "category": "design",
+    "title": "Boathouse Holiday Card",
     "imageUrl": "boathouse_holiday.jpg"
   },
   {
     "id": 2,
     "category": "design",
+    "title": "Erik Allen DJ Flyer",
     "imageUrl": "erik_allen_1.jpg"
   },
   {
     "id": 3,
     "category": "design",
+    "title": "Erik Allen DJ Flyer",
     "imageUrl": "erik_allen_2.jpg"
   },
   {
     "id": 4,
     "category": "design",
+    "title": "Get Cock'ed Cocktail Party Poster",
     "imageUrl": "get_cocked.jpg"
   },
   {
     "id": 5,
     "category": "design",
+    "title": "Lizzy's Bar Halloween Poster",
     "imageUrl": "lizzys_halloween.jpg"
   },
   {
     "id": 6,
     "category": "design",
+    "title": "Speakeasy Cocktail Party Poster",
     "imageUrl": "speakeasy.jpg"
   },
   {
     "id": 7,
     "category": "design",
+    "title": "The Scleroderma Foundation Conference",
     "imageUrl": "scleroderma_cover.jpg"
   },
   {
     "id": 8,
     "category": "design",
+    "title": "Marriott Hotels ECHO Conserve Brochure",
     "imageUrl": "ECHO_brochure.jpg"
   },
   {
     "id": 9,
     "category": "design",
+    "title": "Massachusetts Educators Brochure",
     "imageUrl": "mass_educators_outside.jpg"
   },
   {
     "id": 10,
     "category": "design",
+    "title": "Harvard GSD Brochure",
     "imageUrl": "GSD_brochure.jpg"
   },
   {
     "id": 11,
     "category": "design",
+    "title": "University of Hartford Annual Fund Brochure",
     "imageUrl": "UH_brochure.jpg"
   },
   {
     "id": 12,
     "category": "design",
+    "title": "UMass Annual Fund Brochure",
     "imageUrl": "UMass_brochure.jpg"
   },
   {
     "id": 13,
     "category": "design",
+    "title": "Harvard GSD Fund Leaflet",
     "imageUrl": "GSD_leaflet.jpg"
+  },
+  {
+    "id": 14,
+    "category": "design",
+    "title": "AACRAO Publications Brochure",
+    "imageUrl": "AACRAO_brochure.jpg"
   },
   {
     "id": 15,
     "category": "design",
-    "imageUrl": "AACRAO_brochure.jpg"
+    "title": "NAVA Outlook Newsletter",
+    "imageUrl": "NAVA_outlook.jpg"
   },
   {
     "id": 16,
     "category": "design",
-    "imageUrl": "NAVA_outlook.jpg"
+    "title": "NAVA June Preliminary Program",
+    "imageUrl": "Nava-cover-a.jpg"
   },
   {
     "id": 17,
     "category": "design",
-    "imageUrl": "Nava-cover-a.jpg"
+    "title": "NAVA March Preliminary Program",
+    "imageUrl": "Nava-cover-b.jpg"
   },
   {
     "id": 18,
     "category": "design",
-    "imageUrl": "Nava-cover-b.jpg"
-  },
-  {
-    "id": 19,
-    "category": "design",
+    "title": "NAVA October Exhibitor Prospectus",
     "imageUrl": "Nava-cover-c.jpg"
   }
 ]

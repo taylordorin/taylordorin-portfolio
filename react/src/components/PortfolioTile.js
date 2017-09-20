@@ -24,6 +24,7 @@ class PortfolioTile extends Component {
         <GalleryTile
           key={gallery.id}
           id={gallery.id}
+          title={gallery.title}
           category={gallery.category}
           imageUrl={gallery.imageUrl}
         />

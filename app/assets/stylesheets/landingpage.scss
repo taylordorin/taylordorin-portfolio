@@ -594,7 +594,7 @@ p {
 $container_width: 1280px;
 $maxwidth: 100%;
 $body_bgcolor: white;
-$img_padding: 10px;
+$img_padding: 0px;
 $img_size: 200px;
 
 // * { box-sizing: border-box; }
@@ -614,7 +614,7 @@ $img_size: 200px;
   width: $img_size;
   height: $img_size;
   max-width: $maxwidth;
-  margin: 3px;
+  // margin-top: -6px;
   // background-color: $body_bgcolor;
   // padding: $img_padding;
   display: inline-block;
@@ -624,15 +624,42 @@ $img_size: 200px;
 
   .image {
     max-width: $maxwidth;
-    display: block;
+    // display: block;
     width: $img_size;
     height: $img_size;
     transition: opacity 0.3s ease-in-out;
-
     object-fit: cover;
     // border-radius: 50%;
     &:hover {
       opacity: 0.5;
     }
   }
+}
+
+
+.figure {
+	// margin: 100px auto;
+	width: 200px;
+	height: 200px;
+	// overflow: hidden;
+	position: relative;
+}
+$spacing: 15px;
+.figcaption {
+	position: absolute;
+  display: block;
+	width: 100%;
+  margin:0 auto;
+  padding:$spacing;
+	text-align: center;
+	color: #fff;
+	background-color: rgba(0,0,0,0);
+  transition: background-color .3s ease;
+	line-height: 1.33em;
+}
+
+.figure:hover .figcaption {
+  bottom:0;
+  background-color: rgba(0,0,0,.5);
+  transition: background-color .5s linear;
 }
