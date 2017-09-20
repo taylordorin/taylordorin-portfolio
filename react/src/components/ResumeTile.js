@@ -39,9 +39,9 @@ class ResumeTile extends Component {
           <div className="experience">
             <div className="main">
               <img className="headlines" src={assetHelper["experience.png"]}></img>
-              </div>
-              {work_experiences}
-              <EducationTile />
+            </div>
+            {work_experiences}
+            <EducationTile />
           </div>
         </ScrollableAnchor>
       </div>

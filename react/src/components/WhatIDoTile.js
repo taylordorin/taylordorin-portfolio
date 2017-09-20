@@ -33,7 +33,7 @@ class WhatIDoTile extends Component {
     })
     return(
       <div>
-        <ScrollableAnchor id={'WhatIDo'}><span></span></ScrollableAnchor>
+        <ScrollableAnchor id={'WhatIDo'}>
         <div className="what-i-do-div">
           <div className="main">
             <img className="headlines" src={assetHelper["what-i-do.png"]}></img>
@@ -45,6 +45,7 @@ class WhatIDoTile extends Component {
             {what_i_do}
           </div>
         </div>
+        </ScrollableAnchor>
       </div>
     )
   }
