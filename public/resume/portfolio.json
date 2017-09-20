@@ -32,11 +32,61 @@
   {
     "id": 7,
     "category": "design",
-    "imageUrl": "mass_educators_outside.jpg"
+    "imageUrl": "scleroderma_cover.jpg"
   },
   {
     "id": 8,
     "category": "design",
-    "imageUrl": "scleroderma_cover.jpg"
+    "imageUrl": "ECHO_brochure.jpg"
+  },
+  {
+    "id": 9,
+    "category": "design",
+    "imageUrl": "mass_educators_outside.jpg"
+  },
+  {
+    "id": 10,
+    "category": "design",
+    "imageUrl": "GSD_brochure.jpg"
+  },
+  {
+    "id": 11,
+    "category": "design",
+    "imageUrl": "UH_brochure.jpg"
+  },
+  {
+    "id": 12,
+    "category": "design",
+    "imageUrl": "UMass_brochure.jpg"
+  },
+  {
+    "id": 13,
+    "category": "design",
+    "imageUrl": "GSD_leaflet.jpg"
+  },
+  {
+    "id": 15,
+    "category": "design",
+    "imageUrl": "AACRAO_brochure.jpg"
+  },
+  {
+    "id": 16,
+    "category": "design",
+    "imageUrl": "NAVA_outlook.jpg"
+  },
+  {
+    "id": 17,
+    "category": "design",
+    "imageUrl": "Nava-cover-a.jpg"
+  },
+  {
+    "id": 18,
+    "category": "design",
+    "imageUrl": "Nava-cover-b.jpg"
+  },
+  {
+    "id": 19,
+    "category": "design",
+    "imageUrl": "Nava-cover-c.jpg"
   }
 ]

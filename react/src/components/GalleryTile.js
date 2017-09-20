@@ -8,11 +8,9 @@ class GalleryTile extends Component {
 
   render() {
     return(
-        <div className="subhead small-4 columns">
-          <div className="main">
-            <img className="what_i_icon" src={assetHelper[`${this.props.imageUrl}`]}></img>
-          </div>
-        </div>
+      <div className="block">
+        <img className="image" src={assetHelper[`${this.props.imageUrl}`]}></img>
+      </div>
     )
   }
 }

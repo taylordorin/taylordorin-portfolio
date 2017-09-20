@@ -2,6 +2,7 @@
 @import "helper/fonts";
 @import "helper/assets";
 
+
 body {
   background-color: $white;
 }
@@ -173,6 +174,7 @@ body {
 .columns {
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 //  contact button
 .btn {
@@ -581,3 +583,56 @@ p {
 //     width: 100%;
 //   }
 // }
+
+// .size {
+//   width: 300px;
+// }
+// .block {
+//   display: flex;
+// }
+
+$container_width: 1280px;
+$maxwidth: 100%;
+$body_bgcolor: white;
+$img_padding: 10px;
+$img_size: 200px;
+
+// * { box-sizing: border-box; }
+// body { margin: 0px; padding: 0px; }
+
+
+.nat-image-grid {
+  width: $container_width;
+  max-width: $maxwidth;
+  margin: 0 auto;
+  background-color: $body_bgcolor;
+  position: relative;
+  text-align: center;
+}
+
+.block {
+  width: $img_size;
+  height: $img_size;
+  max-width: $maxwidth;
+  margin: 3px;
+  // background-color: $body_bgcolor;
+  // padding: $img_padding;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  object-fit: cover;
+
+  .image {
+    max-width: $maxwidth;
+    display: block;
+    width: $img_size;
+    height: $img_size;
+    transition: opacity 0.3s ease-in-out;
+
+    object-fit: cover;
+    // border-radius: 50%;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}

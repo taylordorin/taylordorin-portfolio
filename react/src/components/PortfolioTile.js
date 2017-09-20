@@ -31,18 +31,19 @@ class PortfolioTile extends Component {
     })
     return(
       <div>
-        <ScrollableAnchor id={'Portfolio'}>
+        <ScrollableAnchor id={'Portfolio'}><span></span></ScrollableAnchor>
           <div className="experience">
             <div className="main">
               <a href="http://www.coroflot.com/taylordorin"><img className="headlines" src={assetHelper["portfolio.png"]}></img></a>
             </div>
-            <div className="portfolio-body">
+            <div className="nat-image-grid">
             {portfolio_gallery}
             </div>
           </div>
-          </ScrollableAnchor>
       </div>
     )
   }
 }
 export default PortfolioTile;
+
+// {portfolio_gallery}
