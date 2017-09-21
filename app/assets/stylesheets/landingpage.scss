@@ -630,7 +630,7 @@ p {
 
 
 .nat-image-grid {
-  width: $container_width;
+  // width: $container_width;
   max-width: $maxwidth;
   margin: 0 auto;
   // background-color: $body_bgcolor;
@@ -639,8 +639,8 @@ p {
 }
 
 .block {
-  width: $img_size;
-  height: $img_size;
+  width: 20%;
+  height: 20%;
   max-width: $maxwidth;
   display: inline-block;
   position: relative;
@@ -649,8 +649,8 @@ p {
 
   .image {
     max-width: $maxwidth;
-    width: $img_size;
-    height: $img_size;
+    // width: $img_size;
+    // height: $img_size;
     transition: opacity 0.3s ease-in-out;
     object-fit: cover;
     &:hover {
