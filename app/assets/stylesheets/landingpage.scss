@@ -551,6 +551,227 @@ p {
   margin-top: 10px;
   background: #fff;
 }
+// testing for responsive timeline
+
+/* ================ The Timeline ================ */
+
+.experience-timeline {
+  position: relative;
+  width: 980px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 1em 0;
+  list-style-type: none;
+}
+
+.experience-timeline:before {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  content: ' ';
+  display: block;
+  width: 2px;
+  height: 100%;
+  margin-left: -2px;
+  background: #b6c199;
+  z-index: 5;
+}
+
+.experience-timeline li {
+  padding: 1em 0;
+}
+
+.experience-timeline li:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.direction-l {
+  position: relative;
+  width: 450px;
+  float: left;
+  text-align: right;
+}
+
+.direction-r {
+  position: relative;
+  width: 450px;
+  float: right;
+}
+
+.direction-l-time {
+  position: relative;
+  width: 450px;
+  float: left;
+  text-align: right;
+}
+
+.direction-r-time {
+  position: relative;
+  width: 450px;
+  float: right;
+}
+
+.history-wrapper {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.history {
+  position: relative;
+  display: inline;
+  text-align: left;
+  margin: 0;
+  font-family: "Questrial", sans-serif;
+  font-size: 1.2rem;
+  color: #55443d;
+}
+
+.company {
+  color: #b6c199;
+}
+
+.direction-l .history:before,
+.direction-r .history:before {
+  position: absolute;
+  top: 35%;
+  right: -53px;
+  content: ' ';
+  display: block;
+  width: 25px;
+  height: 25px;
+  margin-top: -10px;
+  background: #fff;
+  border-radius: 100%;
+  border: 2px solid #b6c199;
+  z-index: 10;
+}
+
+.direction-r .history:before {
+  left: -56px;
+}
+
+.time-wrapper {
+  display: inline;
+  font-family: "Questrial", sans-serif;
+  margin: 0;
+  font-size: 1rem;
+  color: #55443d;
+}
+
+.direction-l .time-wrapper {
+  float: right;
+}
+
+.direction-r .time-wrapper {
+  float: left;
+}
+
+.time {
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.desc {
+  margin: 1em 0 0 0;
+  font-size: 1rem;
+  line-height: 1.5em;
+  font-family: "Questrial", sans-serif;
+  color: #55443d;
+}
+
+.direction-r .desc {
+  margin: 1em 0 0 0;
+}
+
+
+/* ================ Timeline Media Queries ================ */
+
+@media screen and (max-width: 980px) {
+
+  .experience-timeline {
+    width: 100%;
+    padding: 4em 0 1em 0;
+  }
+
+  .experience-timeline:before {
+    display: none;
+  }
+
+  .experience-timeline li {
+    padding: 2em 0;
+  }
+
+  .direction-l,
+  .direction-r {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .direction-l-time,
+  .direction-r-time {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .direction-l .history:before,
+  .direction-r .history:before {
+    position: absolute;
+    top: -55px;
+    left: 50%;
+    content: ' ';
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-left: -9px;
+    z-index: 10;
+  }
+
+  .time-wrapper {
+    display: block;
+    position: relative;
+    margin: 4px 0 4px 0;
+    z-index: 14;
+  }
+
+  .direction-l-time .time-wrapper {
+    float: none;
+  }
+
+  .direction-r-time .time-wrapper {
+    float: none;
+  }
+
+  .desc {
+    position: relative;
+    margin: 1em 0 0 0;
+    padding: 1em;
+    z-index: 15;
+  }
+
+  .direction-l .desc,
+  .direction-r .desc {
+    position: relative;
+    margin: 0 1em 0 1em;
+    padding: 1em;
+    z-index: 15;
+  }
+}
+
+/* @media screen and (min-width: 400px ?? max-width: 980px) {
+
+  .direction-l .desc,
+  .direction-r .desc {
+    margin: 1em 4em 0 4em;
+  } */
+
+// }
 
 // What I Do Section
 .what-i-do-div {
