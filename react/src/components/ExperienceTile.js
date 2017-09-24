@@ -23,6 +23,7 @@ class ExperienceTile extends Component {
     }
 
     return(
+      
       <div className="timeline">
       <div className="icon-b"></div>
         <div className={entry}>
