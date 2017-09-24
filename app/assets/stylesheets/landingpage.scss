@@ -567,12 +567,12 @@ p {
 .experience-timeline:before {
   position: absolute;
   left: 50%;
-  top: 0;
+  top: 37px;
   content: ' ';
   display: block;
   width: 2px;
   height: 100%;
-  margin-left: -2px;
+  // margin-left: -2px;
   background: #b6c199;
   z-index: 5;
 }
@@ -626,7 +626,8 @@ p {
   display: inline;
   text-align: left;
   margin: 0;
-  font-family: "Questrial", sans-serif;
+  font-weight: bold;
+  font-family: $body;
   font-size: 1.2rem;
   color: #55443d;
 }
@@ -639,7 +640,7 @@ p {
 .direction-r .history:before {
   position: absolute;
   top: 35%;
-  right: -53px;
+  right: -54px;
   content: ' ';
   display: block;
   width: 25px;
@@ -652,12 +653,12 @@ p {
 }
 
 .direction-r .history:before {
-  left: -56px;
+  left: -52px;
 }
 
 .time-wrapper {
   display: inline;
-  font-family: "Questrial", sans-serif;
+  font-family: $body;
   margin: 0;
   font-size: 1rem;
   color: #55443d;
@@ -677,15 +678,15 @@ p {
 }
 
 .desc {
-  margin: 1em 0 0 0;
+  margin: .5em 0 0 0;
   font-size: 1rem;
   line-height: 1.5em;
-  font-family: "Questrial", sans-serif;
+  font-family: $body;
   color: #55443d;
 }
 
 .direction-r .desc {
-  margin: 1em 0 0 0;
+  margin: .5em 0 0 0;
 }
 
 
