@@ -8,7 +8,7 @@ class EducationTile extends Component {
 
   render(){
     return(
-      <ul className="experience-timeline">
+      <ul className="education-timeline">
         <li>
           <div className="direction-l">
             <div className="history-wrapper">

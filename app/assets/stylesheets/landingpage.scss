@@ -774,6 +774,27 @@ p {
 
 // }
 
+.education-timeline {
+  position: relative;
+  width: 980px;
+  margin: 0 auto;
+  // margin-top: 20px;
+  // padding: 1em 0;
+  list-style-type: none;
+}
+
+.education-timeline li {
+  padding: 1em 0;
+}
+
+.education-timeline li:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
 // What I Do Section
 .what-i-do-div {
   background-color: $desat-olive;
