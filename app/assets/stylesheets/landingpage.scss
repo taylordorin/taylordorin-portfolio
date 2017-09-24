@@ -328,15 +328,15 @@ p {
 .timeline {
   width:100%;
   position: relative;
-  &:before {
-    content: '';
-    position: absolute;
-    top: 0px;
-    left: 50%; //$gutter/2
-    bottom: 0px;
-    width: $border-width;
-    background: $desat-olive;
-  }
+  // &:before {
+  //   content: '';
+  //   position: absolute;
+  //   top: 0px;
+  //   left: 50%; //$gutter/2
+  //   bottom: 0px;
+  //   width: $border-width;
+  //   background: $desat-olive;
+  // }
   &:after {
     content: "";
     display: table;
@@ -571,10 +571,10 @@ p {
   content: ' ';
   display: block;
   width: 2px;
-  height: 100%;
+  height: 99%;
   // margin-left: -2px;
-  background: #b6c199;
-  z-index: 5;
+  background: $desat-olive;
+  // z-index: 5;
 }
 
 .experience-timeline li {
@@ -629,11 +629,11 @@ p {
   font-weight: bold;
   font-family: $body;
   font-size: 1.2rem;
-  color: #55443d;
+  color: $dk-brown;
 }
 
 .company {
-  color: #b6c199;
+  color: $desat-olive;
 }
 
 .direction-l .history:before,
@@ -646,9 +646,9 @@ p {
   width: 25px;
   height: 25px;
   margin-top: -10px;
-  background: #fff;
+  background: $white;
   border-radius: 100%;
-  border: 2px solid #b6c199;
+  border: 2px solid $desat-olive;
   z-index: 10;
 }
 
@@ -661,7 +661,7 @@ p {
   font-family: $body;
   margin: 0;
   font-size: 1rem;
-  color: #55443d;
+  color: $dk-brown;
 }
 
 .direction-l .time-wrapper {
@@ -682,7 +682,7 @@ p {
   font-size: 1rem;
   line-height: 1.5em;
   font-family: $body;
-  color: #55443d;
+  color: $dk-brown;
 }
 
 .direction-r .desc {
