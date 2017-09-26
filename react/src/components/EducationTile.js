@@ -10,18 +10,18 @@ class EducationTile extends Component {
     return(
       <ul className="education-timeline">
         <li>
-          <div className="direction-l">
+          <div className="direction-l-time">
             <div className="history-wrapper">
               <span className="history">Longwood University</span>
             </div>
-            <div className="desc">September 1994 - May 1999</div>
+            <div className="tale">September 1994 - May 1999</div>
           </div>
 
           <div className="direction-r">
             <div className="history-wrapper">
               <span className="history">Bachelor of Fine Arts</span>
             </div>
-            <div className="desc">Graphic Design, Photography, Printmaking</div>
+            <div className="tale">Graphic Design, Photography, Printmaking</div>
           </div>
         </li>
       </ul>
@@ -29,6 +29,23 @@ class EducationTile extends Component {
   }
 }
 export default EducationTile;
+
+
+// <ul className="education-timeline">
+//   <li>
+//     <div className="direction-l-time">
+//       <span className="history"><span className="company">Longwood University</span></span>
+//       <div className="desc">September 1994 - May 1999</div>
+//     </div>
+//
+//     <div className="direction-r">
+//       <div className="history-wrapper">
+//         <span className="history"><span className="company">Bachelor of Fine Arts</span></span>
+//       </div>
+//         <div className="desc">Graphic Design, Photography, Printmaking</div>
+//     </div>
+//   </li>
+// </ul>
 
 // <ul className="experience-timeline">
   // <li>
